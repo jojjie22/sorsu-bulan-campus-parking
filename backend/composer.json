@@ -1,0 +1,8 @@
+{
+  "name": "campus-parking/qr-api",
+  "description": "Server-side SVG QR image rendering for campus permits",
+  "require": {
+    "php": "^8.1",
+    "chillerlan/php-qrcode": "^5.0"
+  }
+}

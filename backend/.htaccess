@@ -1,0 +1,5 @@
+Options -Indexes
+SetEnvIfNoCase Authorization "^(.*)$" HTTP_AUTHORIZATION=$1
+<FilesMatch "^(config|db|seed)\.php$">
+    Require all denied
+</FilesMatch>
